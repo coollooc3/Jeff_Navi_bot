@@ -1,0 +1,279 @@
+{
+  "verification_type": "offline_existing_bags_no_robot_motion",
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "source_sha256": "693ed7ad7f2dedd683c55b28d8f56ec4ed785b76edf259cad736d7de7caa57e6",
+  "input_sha256": {
+    "/home/chuyun/leap_nav_data/recordings/patrol_normal_mcap_01/metadata.yaml": "3ad335ec63d8d2ec5920348ede6a7d85b7fab5fbc8d18e3ca62f781bc765cdc6",
+    "/home/chuyun/leap_nav_data/recordings/patrol_normal_mcap_01/patrol_normal_mcap_01_0.mcap": "a483258d1ab8f4ce11d56725c8617ab9d93d4668fb91691c3c42d6438f62b017",
+    "/home/chuyun/leap_nav_data/recordings/patrol_cancel_mcap_02/metadata.yaml": "0a8d40fff7a42de6e3396af53a4329467ca84c0e1dc771189a4eeee49c08f8e3",
+    "/home/chuyun/leap_nav_data/recordings/patrol_cancel_mcap_02/patrol_cancel_mcap_02_0.mcap": "78bc1b42fc2d731822b04a91b78bc391c8dc8eaed0e116f9430e138e19f0a893",
+    "/home/chuyun/leap_nav_data/localization/20261029T070856Z-72403e/bag_mcap/bag_mcap_0.mcap": "1eda9dea1217eaa06f75f6a39e6f9e95b796e548e49d5cda8afad17ec1622ff4",
+    "/home/chuyun/leap_nav_data/localization/20261029T070856Z-72403e/bag_mcap/metadata.yaml": "1018f47fb7cd922f2a0aa76aac52e4ccb62426483429155fc0036f45c72648b0"
+  },
+  "input_files_unchanged": true,
+  "cases": [
+    {
+      "name": "normal_expected_completed",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/chuyun/xuegeros_ws/src/leap_localization_lab/exercises/bag_check.py",
+        "/home/chuyun/leap_nav_data/recordings/patrol_normal_mcap_01",
+        "--expect-state",
+        "COMPLETED",
+        "--output",
+        "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/normal_expected_completed.json",
+        "--require",
+        "/clock",
+        "/map",
+        "/scan",
+        "/odom",
+        "/tf",
+        "/tf_static",
+        "/cmd_vel",
+        "/patrol/status",
+        "/amcl_pose"
+      ],
+      "exit_code": 0,
+      "total_messages": 9854,
+      "last_status": {
+        "state": "COMPLETED",
+        "current_waypoint": "C",
+        "completed": 3,
+        "total": 3,
+        "reason": "",
+        "goal_unresolved": false,
+        "is_terminal": true
+      },
+      "expectation_check": {
+        "expected_state": "COMPLETED",
+        "actual_state": "COMPLETED",
+        "passed": true,
+        "reason": ""
+      },
+      "report": "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/normal_expected_completed.json"
+    },
+    {
+      "name": "cancel_expected_canceled",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/chuyun/xuegeros_ws/src/leap_localization_lab/exercises/bag_check.py",
+        "/home/chuyun/leap_nav_data/recordings/patrol_cancel_mcap_02",
+        "--expect-state",
+        "CANCELED",
+        "--output",
+        "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/cancel_expected_canceled.json",
+        "--require",
+        "/clock",
+        "/map",
+        "/scan",
+        "/odom",
+        "/tf",
+        "/tf_static",
+        "/cmd_vel",
+        "/patrol/status",
+        "/amcl_pose"
+      ],
+      "exit_code": 0,
+      "total_messages": 2900,
+      "last_status": {
+        "state": "CANCELED",
+        "current_waypoint": "A",
+        "completed": 0,
+        "total": 3,
+        "reason": "operator_cancel",
+        "goal_unresolved": false,
+        "is_terminal": true
+      },
+      "expectation_check": {
+        "expected_state": "CANCELED",
+        "actual_state": "CANCELED",
+        "passed": true,
+        "reason": ""
+      },
+      "report": "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/cancel_expected_canceled.json"
+    },
+    {
+      "name": "cancel_expected_completed",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/chuyun/xuegeros_ws/src/leap_localization_lab/exercises/bag_check.py",
+        "/home/chuyun/leap_nav_data/recordings/patrol_cancel_mcap_02",
+        "--expect-state",
+        "COMPLETED",
+        "--output",
+        "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/cancel_expected_completed.json",
+        "--require",
+        "/clock",
+        "/map",
+        "/scan",
+        "/odom",
+        "/tf",
+        "/tf_static",
+        "/cmd_vel",
+        "/patrol/status",
+        "/amcl_pose"
+      ],
+      "exit_code": 1,
+      "total_messages": 2900,
+      "last_status": {
+        "state": "CANCELED",
+        "current_waypoint": "A",
+        "completed": 0,
+        "total": 3,
+        "reason": "operator_cancel",
+        "goal_unresolved": false,
+        "is_terminal": true
+      },
+      "expectation_check": {
+        "expected_state": "COMPLETED",
+        "actual_state": "CANCELED",
+        "passed": false,
+        "reason": "state_mismatch"
+      },
+      "report": "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/cancel_expected_completed.json"
+    },
+    {
+      "name": "normal_expected_canceled",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/chuyun/xuegeros_ws/src/leap_localization_lab/exercises/bag_check.py",
+        "/home/chuyun/leap_nav_data/recordings/patrol_normal_mcap_01",
+        "--expect-state",
+        "CANCELED",
+        "--output",
+        "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/normal_expected_canceled.json",
+        "--require",
+        "/clock",
+        "/map",
+        "/scan",
+        "/odom",
+        "/tf",
+        "/tf_static",
+        "/cmd_vel",
+        "/patrol/status",
+        "/amcl_pose"
+      ],
+      "exit_code": 1,
+      "total_messages": 9854,
+      "last_status": {
+        "state": "COMPLETED",
+        "current_waypoint": "C",
+        "completed": 3,
+        "total": 3,
+        "reason": "",
+        "goal_unresolved": false,
+        "is_terminal": true
+      },
+      "expectation_check": {
+        "expected_state": "CANCELED",
+        "actual_state": "COMPLETED",
+        "passed": false,
+        "reason": "state_mismatch"
+      },
+      "report": "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/normal_expected_canceled.json"
+    },
+    {
+      "name": "no_patrol_topic",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/chuyun/xuegeros_ws/src/leap_localization_lab/exercises/bag_check.py",
+        "/home/chuyun/leap_nav_data/localization/20261029T070856Z-72403e/bag_mcap",
+        "--expect-state",
+        "COMPLETED",
+        "--output",
+        "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/no_patrol_topic.json"
+      ],
+      "exit_code": 1,
+      "total_messages": 26128,
+      "last_status": null,
+      "expectation_check": {
+        "expected_state": "COMPLETED",
+        "actual_state": null,
+        "passed": false,
+        "reason": "patrol_status_missing"
+      },
+      "report": "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/no_patrol_topic.json"
+    },
+    {
+      "name": "normal_legacy_patrol",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/chuyun/xuegeros_ws/src/leap_localization_lab/exercises/bag_check.py",
+        "/home/chuyun/leap_nav_data/recordings/patrol_normal_mcap_01",
+        "--patrol",
+        "--output",
+        "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/normal_legacy_patrol.json",
+        "--require",
+        "/clock",
+        "/map",
+        "/scan",
+        "/odom",
+        "/tf",
+        "/tf_static",
+        "/cmd_vel",
+        "/patrol/status",
+        "/amcl_pose"
+      ],
+      "exit_code": 0,
+      "total_messages": 9854,
+      "last_status": {
+        "state": "COMPLETED",
+        "current_waypoint": "C",
+        "completed": 3,
+        "total": 3,
+        "reason": "",
+        "goal_unresolved": false,
+        "is_terminal": true
+      },
+      "expectation_check": null,
+      "report": "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/normal_legacy_patrol.json"
+    },
+    {
+      "name": "cancel_legacy_patrol",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "/home/chuyun/xuegeros_ws/src/leap_localization_lab/exercises/bag_check.py",
+        "/home/chuyun/leap_nav_data/recordings/patrol_cancel_mcap_02",
+        "--patrol",
+        "--output",
+        "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/cancel_legacy_patrol.json",
+        "--require",
+        "/clock",
+        "/map",
+        "/scan",
+        "/odom",
+        "/tf",
+        "/tf_static",
+        "/cmd_vel",
+        "/patrol/status",
+        "/amcl_pose"
+      ],
+      "exit_code": 0,
+      "total_messages": 2900,
+      "last_status": {
+        "state": "CANCELED",
+        "current_waypoint": "A",
+        "completed": 0,
+        "total": 3,
+        "reason": "operator_cancel",
+        "goal_unresolved": false,
+        "is_terminal": true
+      },
+      "expectation_check": null,
+      "report": "/home/chuyun/leap_nav_data/reports/patrol-expectation-20261031/cancel_legacy_patrol.json"
+    }
+  ],
+  "limits": [
+    "No simulation or robot motion was started.",
+    "Mismatched expectations are controlled tests, not new navigation failures.",
+    "Pure Python tests cover FAILED and malformed states; no new FAILED patrol was recorded.",
+    "Terminal state and resolved goal do not prove physical stop."
+  ]
+}

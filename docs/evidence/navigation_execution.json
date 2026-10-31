@@ -1,0 +1,23 @@
+{
+  "goal_id": "1adaf47c4c58475cb6b2edd770f177df",
+  "recorded_states": [
+    {
+      "wall_monotonic_s": 19547.994098979,
+      "state": "action_states",
+      "goals": {
+        "1adaf47c4c58475cb6b2edd770f177df": "EXECUTING"
+      }
+    },
+    {
+      "wall_monotonic_s": 19585.652206212,
+      "state": "action_states",
+      "goals": {
+        "1adaf47c4c58475cb6b2edd770f177df": "SUCCEEDED"
+      }
+    }
+  ],
+  "observed_executing_to_succeeded_wall_s": 37.65810723299728,
+  "user_observation": "Robot followed the new route avoiding the box.",
+  "tree_selection_evidence": "No startup override; installed Humble default copied. Live parameter query timed out; no matching simulation processes were found afterward.",
+  "limits": "One observed simulation execution; no new terminal pose accuracy, footprint clearance or success-rate evaluation."
+}

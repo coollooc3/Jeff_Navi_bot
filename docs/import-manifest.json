@@ -1,0 +1,721 @@
+{
+  "source_repository": "https://github.com/coollooc3/Jeff_follow_bot",
+  "source_baseline_commit": "2a3d2aa0f0019415612b92e123f0cd8ece4f799f",
+  "snapshot_date": "2026-10-31",
+  "source_is_working_tree_snapshot": true,
+  "packages": [
+    "leap_nav_demo",
+    "leap_mapping",
+    "leap_patrol",
+    "leap_localization_lab"
+  ],
+  "note": "Includes uncommitted navigation work. Generated caches and raw bags were not imported.",
+  "files": [
+    {
+      "path": "leap_nav_demo/behavior_trees/fail_fast.xml",
+      "sha256": "3ba88740b1df707d9858893d9bb88b83ca764f36fd758aec1dc5f6e8fdbf0d23",
+      "bytes": 470,
+      "source_sha256": "3ba88740b1df707d9858893d9bb88b83ca764f36fd758aec1dc5f6e8fdbf0d23",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/CMakeLists.txt",
+      "sha256": "d61ccf2ca39623cc36c08346a0a67e060305ac634e6f354807ba0fd4fd67a78a",
+      "bytes": 1559,
+      "source_sha256": "d61ccf2ca39623cc36c08346a0a67e060305ac634e6f354807ba0fd4fd67a78a",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/config/rpp.yaml",
+      "sha256": "7de11a1dc2828db5e921aea2be91ac693836d050e162869d77c03efd4a083c66",
+      "bytes": 714,
+      "source_sha256": "7de11a1dc2828db5e921aea2be91ac693836d050e162869d77c03efd4a083c66",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/exercises/dijkstra_grid.py",
+      "sha256": "157ebe7545da6deb31eedaaad300887a8274fb20f8c7ea022281ff1363e406db",
+      "bytes": 13471,
+      "source_sha256": "157ebe7545da6deb31eedaaad300887a8274fb20f8c7ea022281ff1363e406db",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/exercises/pure_pursuit.py",
+      "sha256": "8279cc5102c66f498d574240e901069453f256b3fddc7437b1a32548f7d475f3",
+      "bytes": 2857,
+      "source_sha256": "8279cc5102c66f498d574240e901069453f256b3fddc7437b1a32548f7d475f3",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/launch/navigation.launch.py",
+      "sha256": "b9c02cbb04ebeeb1ada6b34f16c304c5939dd59ad9c811155589e2165911e9a5",
+      "bytes": 3703,
+      "source_sha256": "b9c02cbb04ebeeb1ada6b34f16c304c5939dd59ad9c811155589e2165911e9a5",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/launch/simulation.launch.py",
+      "sha256": "1e45bd2c76924edf1f896a1f2b128c61a4667508da5f7ad5df5207ce4bbc3d3a",
+      "bytes": 3180,
+      "source_sha256": "1e45bd2c76924edf1f896a1f2b128c61a4667508da5f7ad5df5207ce4bbc3d3a",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/models/blocked_goal.sdf",
+      "sha256": "87794030713991bd413095881e0f28812957328e154ba1083299dd234d257ea2",
+      "bytes": 947,
+      "source_sha256": "87794030713991bd413095881e0f28812957328e154ba1083299dd234d257ea2",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/models/obstacle.sdf",
+      "sha256": "cd6835141f8f991b6bc69a38d6b401c80aaf6c86a413e210c1f24d1a9d798d1f",
+      "bytes": 945,
+      "source_sha256": "cd6835141f8f991b6bc69a38d6b401c80aaf6c86a413e210c1f24d1a9d798d1f",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/models/route_gate.sdf",
+      "sha256": "379d70bea6828a2f0d3fd18d35404db8c888d7a96797955ffae1d43ebdfa3eb7",
+      "bytes": 875,
+      "source_sha256": "379d70bea6828a2f0d3fd18d35404db8c888d7a96797955ffae1d43ebdfa3eb7",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/models/route_room.sdf",
+      "sha256": "fd0f99504a8a4d823ce6c6f125e5e5454ff1ab8ffc229a5b178c01a820ee38bd",
+      "bytes": 1109,
+      "source_sha256": "fd0f99504a8a4d823ce6c6f125e5e5454ff1ab8ffc229a5b178c01a820ee38bd",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/package.xml",
+      "sha256": "56933388953defbab7254f945a67ead1f69d198efb2edef14668f3f2fe4365ed",
+      "bytes": 1423,
+      "source_sha256": "56933388953defbab7254f945a67ead1f69d198efb2edef14668f3f2fe4365ed",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/README.md",
+      "sha256": "ff03d522a86992bec04737908aeb090ac9fd1662243767f043669aa3678897e6",
+      "bytes": 37659,
+      "source_sha256": "ff03d522a86992bec04737908aeb090ac9fd1662243767f043669aa3678897e6",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/bc_dataset.py",
+      "sha256": "d264894935d48d954690fa552818199d817da025a7d7b58e51c551a89a88e96a",
+      "bytes": 3989,
+      "source_sha256": "d264894935d48d954690fa552818199d817da025a7d7b58e51c551a89a88e96a",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/bc_policy.py",
+      "sha256": "d27aa597c7f38f63e98bd9238c5006a326e57dea194dc123d39285d906c6533b",
+      "bytes": 4744,
+      "source_sha256": "d27aa597c7f38f63e98bd9238c5006a326e57dea194dc123d39285d906c6533b",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/bc_trial.py",
+      "sha256": "05feb20ff6dbce017bbfb5d8ebd4222954c5565f474f3a6e8e5e27ba40069e75",
+      "bytes": 9958,
+      "source_sha256": "05feb20ff6dbce017bbfb5d8ebd4222954c5565f474f3a6e8e5e27ba40069e75",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/blocked_route_trial.py",
+      "sha256": "9b3d524805705163e61480dca1166b4530fbbdc1aff5da9ab6a20037c846398e",
+      "bytes": 7561,
+      "source_sha256": "9b3d524805705163e61480dca1166b4530fbbdc1aff5da9ab6a20037c846398e",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/check_sim.py",
+      "sha256": "8520e66272c29121d6247cae627c96e03eab52f24fca3335a0886b75bba5161c",
+      "bytes": 4896,
+      "source_sha256": "8520e66272c29121d6247cae627c96e03eab52f24fca3335a0886b75bba5161c",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/closed_route.py",
+      "sha256": "de0e0a8641abf5394840b30585be90de8384e2dd74b8f878f338b156abbb524d",
+      "bytes": 6957,
+      "source_sha256": "de0e0a8641abf5394840b30585be90de8384e2dd74b8f878f338b156abbb524d",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/expert_data.py",
+      "sha256": "87cfcb454f0906d74f3d42f2864007f08d1f1ae61fca3ee88f94fe31b1c61fcd",
+      "bytes": 6485,
+      "source_sha256": "87cfcb454f0906d74f3d42f2864007f08d1f1ae61fca3ee88f94fe31b1c61fcd",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/expert_recorder.py",
+      "sha256": "5b2ad675591de0098500b0269afc8d8094106137b04884f7a61ec2b2cad4fee9",
+      "bytes": 4832,
+      "source_sha256": "5b2ad675591de0098500b0269afc8d8094106137b04884f7a61ec2b2cad4fee9",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/nav_recording.py",
+      "sha256": "93958d12610bb686babe3e066e369d93eee4f106f19cac1dd15b8468aff50933",
+      "bytes": 7619,
+      "source_sha256": "d302c10222a1ca7c8757c7050411c0ea5d54dcf04c43777425521359cf078a60",
+      "formatting_normalized": true
+    },
+    {
+      "path": "leap_nav_demo/scripts/nav_task.py",
+      "sha256": "b99758810731b05e45162487324e3713f19819cdf5bb6439214b3e8b34a73283",
+      "bytes": 11824,
+      "source_sha256": "b99758810731b05e45162487324e3713f19819cdf5bb6439214b3e8b34a73283",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/navigate_once.py",
+      "sha256": "082167524003654d31ede37493225f8482858f7be1e01a76eb3f81fbbdb48d8e",
+      "bytes": 12761,
+      "source_sha256": "082167524003654d31ede37493225f8482858f7be1e01a76eb3f81fbbdb48d8e",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/observation_buffer.py",
+      "sha256": "3d594398a6a04d5400f6b2f86e6b6af40ec60a7dcb0e51dce547ff74136c70d3",
+      "bytes": 6204,
+      "source_sha256": "3d594398a6a04d5400f6b2f86e6b6af40ec60a7dcb0e51dce547ff74136c70d3",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/obstacle_scenario.py",
+      "sha256": "392eda654714f209db2453d43874f3d33acd2a4d8f9c12474e98fee6b67f5751",
+      "bytes": 10243,
+      "source_sha256": "392eda654714f209db2453d43874f3d33acd2a4d8f9c12474e98fee6b67f5751",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/route_checks.py",
+      "sha256": "89837b6377f3a2fd876d71975cc88a4a4d36d49012dc7148bab192754b8ad09d",
+      "bytes": 4227,
+      "source_sha256": "89837b6377f3a2fd876d71975cc88a4a4d36d49012dc7148bab192754b8ad09d",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/run_demo.py",
+      "sha256": "2362171503586396bb1bde3309f9f0184f086a8dd1ff254e29d02c88c336f4fa",
+      "bytes": 6784,
+      "source_sha256": "2362171503586396bb1bde3309f9f0184f086a8dd1ff254e29d02c88c336f4fa",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/run_manual.py",
+      "sha256": "d9f9d71c1793079c931ec6ee9dd47c4e0311a8a1ed06769726ead1c33c02a37e",
+      "bytes": 6528,
+      "source_sha256": "d9f9d71c1793079c931ec6ee9dd47c4e0311a8a1ed06769726ead1c33c02a37e",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/run_suite.py",
+      "sha256": "8632cee81314ad71b90b7ff40646b0bb3e943f15dd98f4db47e0372c2dcde438",
+      "bytes": 5397,
+      "source_sha256": "8632cee81314ad71b90b7ff40646b0bb3e943f15dd98f4db47e0372c2dcde438",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/session_process.py",
+      "sha256": "cf0944eabdac7c89a154433b4e6d4951c6f8c87cc93345f9c1184afe213506a1",
+      "bytes": 2456,
+      "source_sha256": "cf0944eabdac7c89a154433b4e6d4951c6f8c87cc93345f9c1184afe213506a1",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/suite_report.py",
+      "sha256": "a3e2c73ac8466434b4674475fdab6139b98a132eceabf9c192e0a490ebcacdf9",
+      "bytes": 12382,
+      "source_sha256": "a3e2c73ac8466434b4674475fdab6139b98a132eceabf9c192e0a490ebcacdf9",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/task_checks.py",
+      "sha256": "4ff1a694047f690bc459277c15f1765e6c9d70041714c4e992ad7c821396a6fa",
+      "bytes": 4960,
+      "source_sha256": "4ff1a694047f690bc459277c15f1765e6c9d70041714c4e992ad7c821396a6fa",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/task_config.py",
+      "sha256": "4914f146c24ffd46197ff8ebd2ba35ecceb3db9650c9a72c8d4803f8de632dee",
+      "bytes": 1998,
+      "source_sha256": "4914f146c24ffd46197ff8ebd2ba35ecceb3db9650c9a72c8d4803f8de632dee",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/scripts/train_bc.py",
+      "sha256": "21fad6d5783836e9d0b81a3c66f541b3b94ec5fa8ef8e14f10e99b52091baf00",
+      "bytes": 6086,
+      "source_sha256": "21fad6d5783836e9d0b81a3c66f541b3b94ec5fa8ef8e14f10e99b52091baf00",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/test/test_bc.py",
+      "sha256": "8a8d16b36c67397547b3782419389b1c44f8cd9cf0d77f46e430cfb269e54404",
+      "bytes": 8292,
+      "source_sha256": "8a8d16b36c67397547b3782419389b1c44f8cd9cf0d77f46e430cfb269e54404",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/test/test_expert_data.py",
+      "sha256": "17064a72e1ea520c6799036036d523ed79dfcf7f18da9972eab9db79819fbb3b",
+      "bytes": 5523,
+      "source_sha256": "17064a72e1ea520c6799036036d523ed79dfcf7f18da9972eab9db79819fbb3b",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/test/test_manual.py",
+      "sha256": "02d1d55656f5564b738147180873824239908e81b00e2a3edfd89458001b21eb",
+      "bytes": 9874,
+      "source_sha256": "02d1d55656f5564b738147180873824239908e81b00e2a3edfd89458001b21eb",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/test/test_observation_buffer.py",
+      "sha256": "48cdba70865834d71c996210f7a2f99e0c1e0cd396c52b48c2bd7decbcf75dcd",
+      "bytes": 8985,
+      "source_sha256": "48cdba70865834d71c996210f7a2f99e0c1e0cd396c52b48c2bd7decbcf75dcd",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/test/test_obstacle.py",
+      "sha256": "7f127b2f376b79ead0b1e9d3076d4db9bc2db6206f917ab5e31268e85c5eb4c6",
+      "bytes": 5087,
+      "source_sha256": "7f127b2f376b79ead0b1e9d3076d4db9bc2db6206f917ab5e31268e85c5eb4c6",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/test/test_route_checks.py",
+      "sha256": "3ed605b8739340f63cbbaaf797a11e8ca1e1a998edbdcab36abc81606dc09723",
+      "bytes": 5793,
+      "source_sha256": "3ed605b8739340f63cbbaaf797a11e8ca1e1a998edbdcab36abc81606dc09723",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/test/test_session.py",
+      "sha256": "ac99805661f6dde9fd073a351bd376b785f303b6f33846d3ebe37ca94944324e",
+      "bytes": 2665,
+      "source_sha256": "ac99805661f6dde9fd073a351bd376b785f303b6f33846d3ebe37ca94944324e",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/test/test_suite.py",
+      "sha256": "c7493048925e22e7a110a724bfe8db99b530459f3f1b46344813541eea51e70a",
+      "bytes": 12718,
+      "source_sha256": "c7493048925e22e7a110a724bfe8db99b530459f3f1b46344813541eea51e70a",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/test/test_task_checks.py",
+      "sha256": "ace28dd2d09499847f6f1308f99ef370ce5748cb007033ff4b909a6bb9235d67",
+      "bytes": 5749,
+      "source_sha256": "ace28dd2d09499847f6f1308f99ef370ce5748cb007033ff4b909a6bb9235d67",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_nav_demo/test/test_task_config.py",
+      "sha256": "9cb9daebf29fa650629698f68241c4c702f8ac103f0052192fe8c69a10585fc2",
+      "bytes": 4425,
+      "source_sha256": "9cb9daebf29fa650629698f68241c4c702f8ac103f0052192fe8c69a10585fc2",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/.gitignore",
+      "sha256": "9f8152476833f2dbcb354df057b05b99dc3af7b1c84425ab1c22018141aa969f",
+      "bytes": 81,
+      "source_sha256": "9f8152476833f2dbcb354df057b05b99dc3af7b1c84425ab1c22018141aa969f",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/CMakeLists.txt",
+      "sha256": "b1724ae52676f727386330ce3af0859cd9f254c7eddfb880f928f0310bc65844",
+      "bytes": 253,
+      "source_sha256": "b1724ae52676f727386330ce3af0859cd9f254c7eddfb880f928f0310bc65844",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/config/mapping.yaml",
+      "sha256": "dafc2aa03395817d8c62ff5e0f8f27cfb6a23ee53ca26f2414cba37ae5e10b87",
+      "bytes": 408,
+      "source_sha256": "dafc2aa03395817d8c62ff5e0f8f27cfb6a23ee53ca26f2414cba37ae5e10b87",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/config/patrol_route.yaml",
+      "sha256": "37379e3303743dec963c7133524e2b0c7ead1d0c9d706cb31005a0bf90857813",
+      "bytes": 328,
+      "source_sha256": "37379e3303743dec963c7133524e2b0c7ead1d0c9d706cb31005a0bf90857813",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/config/patrol_route_abcd.yaml",
+      "sha256": "2b5db43df77665eb9dd492dc0cc01c1549a39a000be4d7b2ee61be5cc0b1c43a",
+      "bytes": 372,
+      "source_sha256": "2b5db43df77665eb9dd492dc0cc01c1549a39a000be4d7b2ee61be5cc0b1c43a",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/config/patrol_route_failure.yaml",
+      "sha256": "721303a545bbed428a61c0ef996c5bb0fdb2d545dd6118da984e012397adb4c9",
+      "bytes": 170,
+      "source_sha256": "721303a545bbed428a61c0ef996c5bb0fdb2d545dd6118da984e012397adb4c9",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/launch/mapping.launch.py",
+      "sha256": "6e1efc2ab5d51786cb5b598bacd79861aed4022109fb5c94156b5f0b5bc4b5b4",
+      "bytes": 2016,
+      "source_sha256": "6e1efc2ab5d51786cb5b598bacd79861aed4022109fb5c94156b5f0b5bc4b5b4",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/launch/navigation.launch.py",
+      "sha256": "4ca5581b82252977e6b01d08a37a47eaea292a509478baf0d205f6c8161496f4",
+      "bytes": 3935,
+      "source_sha256": "4ca5581b82252977e6b01d08a37a47eaea292a509478baf0d205f6c8161496f4",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/LICENSE",
+      "sha256": "7ef0b316b4cbc991d3a88c012c2a1fbbf2672027f7cd27952768cf74637368c3",
+      "bytes": 1061,
+      "source_sha256": "7ef0b316b4cbc991d3a88c012c2a1fbbf2672027f7cd27952768cf74637368c3",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/maps/my_first_map_20261023.pgm",
+      "sha256": "474e091c3ece11abfa65fd08067a0f39a2935d3d3facf3f917fa27feeb2c80fe",
+      "bytes": 11551,
+      "source_sha256": "474e091c3ece11abfa65fd08067a0f39a2935d3d3facf3f917fa27feeb2c80fe",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/maps/my_first_map_20261023.yaml",
+      "sha256": "440ac6d7d1589ba207cb04f910d2031f0faafe9a62f05703c4948ddddc55e0e9",
+      "bytes": 139,
+      "source_sha256": "440ac6d7d1589ba207cb04f910d2031f0faafe9a62f05703c4948ddddc55e0e9",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/maps/my_first_map_20261023_nav.yaml",
+      "sha256": "ae4232ddf67f2cad055a5ac750aa0b10e4440ed7e0605889704a56092fa273f1",
+      "bytes": 291,
+      "source_sha256": "ae4232ddf67f2cad055a5ac750aa0b10e4440ed7e0605889704a56092fa273f1",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/package.xml",
+      "sha256": "9c62babead6c42feaa11b384ac12506737ec66181acd568d9b8bf313d950c98c",
+      "bytes": 1018,
+      "source_sha256": "2a854ddd28165acda5bde2dc4060a77a640293a2af90ef2d4c7c1ee1104c4f59",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/README.md",
+      "sha256": "9bb8dc69402d962bd7773cd15062999c52c49ccc9005eb16d42b885c476c8637",
+      "bytes": 12254,
+      "source_sha256": "9bb8dc69402d962bd7773cd15062999c52c49ccc9005eb16d42b885c476c8637",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/rviz/mapping.rviz",
+      "sha256": "ed834f450b6952fbbd056e8584a1451476bf08713f6aefecbc6f2122e84f96da",
+      "bytes": 1748,
+      "source_sha256": "ed834f450b6952fbbd056e8584a1451476bf08713f6aefecbc6f2122e84f96da",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_mapping/rviz/navigation.rviz",
+      "sha256": "db63146dfcc5a9c74de98ba369956b547bdc7386c6231ea91bdb7ecde6d2aa87",
+      "bytes": 2939,
+      "source_sha256": "db63146dfcc5a9c74de98ba369956b547bdc7386c6231ea91bdb7ecde6d2aa87",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/.gitignore",
+      "sha256": "2417ecf584b1716037f26f7e1e76faf8561330aee7a70086c031ab8f19666299",
+      "bytes": 100,
+      "source_sha256": "2417ecf584b1716037f26f7e1e76faf8561330aee7a70086c031ab8f19666299",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/config/route.yaml",
+      "sha256": "d0ab16691a2248e2cc0356a12e6b5d7b86f78de004b31840b12f46b0709ccc28",
+      "bytes": 240,
+      "source_sha256": "d0ab16691a2248e2cc0356a12e6b5d7b86f78de004b31840b12f46b0709ccc28",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/config/route_bac.yaml",
+      "sha256": "af5a5f0e0833be4725187e1b6ae1a9392f0080152571f4eb69703e4bd7ff5057",
+      "bytes": 240,
+      "source_sha256": "af5a5f0e0833be4725187e1b6ae1a9392f0080152571f4eb69703e4bd7ff5057",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/launch/patrol.launch.py",
+      "sha256": "9a7be579d7dd6a461edfa09c326308929ebaec5dfdec0fa58cf145577a99e0f4",
+      "bytes": 742,
+      "source_sha256": "9a7be579d7dd6a461edfa09c326308929ebaec5dfdec0fa58cf145577a99e0f4",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/leap_patrol/__init__.py",
+      "sha256": "cf6cceb5b2635f7fe5e1825ec286882539d967e3b3edf6e41a788956cae3a110",
+      "bytes": 68,
+      "source_sha256": "cf6cceb5b2635f7fe5e1825ec286882539d967e3b3edf6e41a788956cae3a110",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/leap_patrol/client.py",
+      "sha256": "1637f1b3a2b02a12f967f1f0bad6bd62fb1b527ab18ef6e0d2ffeaf73a6790c3",
+      "bytes": 4161,
+      "source_sha256": "1637f1b3a2b02a12f967f1f0bad6bd62fb1b527ab18ef6e0d2ffeaf73a6790c3",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/leap_patrol/exercise_check.py",
+      "sha256": "8fdffba68926b2386f30064e351af6e2962e6636a44a3b1ae41ca0dc3670095c",
+      "bytes": 2760,
+      "source_sha256": "8fdffba68926b2386f30064e351af6e2962e6636a44a3b1ae41ca0dc3670095c",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/leap_patrol/lesson.py",
+      "sha256": "ed394cc4fd81358b71ccd29edea353fac19262a2e5364c84f3ef3bb81cddeff4",
+      "bytes": 1879,
+      "source_sha256": "ed394cc4fd81358b71ccd29edea353fac19262a2e5364c84f3ef3bb81cddeff4",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/leap_patrol/mission.py",
+      "sha256": "f6c7650a33f729a9275d922dfb3da4a0aa80824968c01bd5ba43fa8be5551084",
+      "bytes": 1791,
+      "source_sha256": "f6c7650a33f729a9275d922dfb3da4a0aa80824968c01bd5ba43fa8be5551084",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/leap_patrol/node.py",
+      "sha256": "ad79d8a6fd2f91a848857b9b9c5f779ac483b60578168af74561cbe7a69ba885",
+      "bytes": 6964,
+      "source_sha256": "ad79d8a6fd2f91a848857b9b9c5f779ac483b60578168af74561cbe7a69ba885",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/leap_patrol/route.py",
+      "sha256": "f22a5035bc36cc80f89ea72d931559b94593eaaf22b808267898647d750a02e8",
+      "bytes": 1243,
+      "source_sha256": "f22a5035bc36cc80f89ea72d931559b94593eaaf22b808267898647d750a02e8",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/LICENSE",
+      "sha256": "af434d5b0723488224028898310ff59440d7085b69dda17c60f6441e7e2db626",
+      "bytes": 1085,
+      "source_sha256": "af434d5b0723488224028898310ff59440d7085b69dda17c60f6441e7e2db626",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/package.xml",
+      "sha256": "4fd4e3c537df0db2ff721bf2f5246d4797484b0e6bcb322e0e1a129ce30f6606",
+      "bytes": 952,
+      "source_sha256": "0eaab8b706c62f19b0cb44fcf1a5bd8c4fbb2148d3a8282d1cf8b23eb9a9f6fc",
+      "formatting_normalized": true
+    },
+    {
+      "path": "leap_patrol/README.md",
+      "sha256": "3417ae5a2f757363f52d3acfd058771a894e2539b7fa004180b90a10eecdcae0",
+      "bytes": 9216,
+      "source_sha256": "3417ae5a2f757363f52d3acfd058771a894e2539b7fa004180b90a10eecdcae0",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/resource/leap_patrol",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/setup.cfg",
+      "sha256": "a5c7274ef51f1365bd6bef4f0320953d3798f2f30fb25bae89260a48a157f8fa",
+      "bytes": 91,
+      "source_sha256": "a5c7274ef51f1365bd6bef4f0320953d3798f2f30fb25bae89260a48a157f8fa",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/setup.py",
+      "sha256": "813b2f5c76c851b42e1e04abb533f012cec1b633e8ad953ae7b0ff6e93a1f063",
+      "bytes": 903,
+      "source_sha256": "ebe3c130e4977cad888d327e9571c42a55a531cf60d43d54d09b9f1a3c79b1d8",
+      "formatting_normalized": true
+    },
+    {
+      "path": "leap_patrol/test/test_framework.py",
+      "sha256": "44017ec23ab524176168f90aba6280a54847cb6d095c948adc5eec6af839b5bf",
+      "bytes": 8392,
+      "source_sha256": "44017ec23ab524176168f90aba6280a54847cb6d095c948adc5eec6af839b5bf",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/test/test_route.py",
+      "sha256": "600e6e6ed5aa04ce006afdd66180ac872c384bfe8a057da2e02ad0a02a5023fc",
+      "bytes": 1293,
+      "source_sha256": "600e6e6ed5aa04ce006afdd66180ac872c384bfe8a057da2e02ad0a02a5023fc",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_patrol/VALIDATION.md",
+      "sha256": "108cc579038dcfaa00e1f355990b11ae9a76a81332b8530e8a773d9041a58985",
+      "bytes": 5481,
+      "source_sha256": "108cc579038dcfaa00e1f355990b11ae9a76a81332b8530e8a773d9041a58985",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/exercises/bag_check.py",
+      "sha256": "49d289b7803f278f6d49985f848cca077616ac5a7743363a3a5a9bfb95318662",
+      "bytes": 18271,
+      "source_sha256": "693ed7ad7f2dedd683c55b28d8f56ec4ed785b76edf259cad736d7de7caa57e6",
+      "formatting_normalized": true
+    },
+    {
+      "path": "leap_localization_lab/exercises/bag_view.rviz",
+      "sha256": "33f7fdff61a8fe7d29f8ac36ac92ff9ceb3628f1977d4ffc980c715cd816f03e",
+      "bytes": 1399,
+      "source_sha256": "33f7fdff61a8fe7d29f8ac36ac92ff9ceb3628f1977d4ffc980c715cd816f03e",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/exercises/convert_to_mcap.yaml",
+      "sha256": "000c4783769adeae365aed7dc7e8b02651e366879d879d751959b8fa463cce6f",
+      "bytes": 297,
+      "source_sha256": "000c4783769adeae365aed7dc7e8b02651e366879d879d751959b8fa463cce6f",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/exercises/nearest_neighbor.py",
+      "sha256": "74e486643b4f37400497ca6428482c70dca2b7e94a86ed39c02c0ac91f51119b",
+      "bytes": 3177,
+      "source_sha256": "e29af6201f9aa2c625d2bfd9f2ee9f1ac3682be16818927260c7efd48ee4bed8",
+      "formatting_normalized": true
+    },
+    {
+      "path": "leap_localization_lab/exercises/point_transform.py",
+      "sha256": "7efb140a02df32b0eb3a82a55278fd8101b78d02bffa8a3bbe199e7cb959878c",
+      "bytes": 5035,
+      "source_sha256": "03427ded1d2267e83381bb7fb23dc452aabeda4538c874eaebf0cf04fb8b4084",
+      "formatting_normalized": true
+    },
+    {
+      "path": "leap_localization_lab/exercises/scan_pair.json",
+      "sha256": "49c1e467f9f2c785a48ccd3bc7b4cfc026535e132a23cb034a8a4bfce2e065d5",
+      "bytes": 49165,
+      "source_sha256": "49c1e467f9f2c785a48ccd3bc7b4cfc026535e132a23cb034a8a4bfce2e065d5",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/exercises/scan_preview.svg",
+      "sha256": "60f3f2c21911fea2638538210b2793f2aa3e0b29c22623f52670af1366b23e6d",
+      "bytes": 47653,
+      "source_sha256": "204e5d2f5f20c68945e71953f3d1bd7352d747f9b05132b080036f48c93671fc",
+      "formatting_normalized": true
+    },
+    {
+      "path": "leap_localization_lab/exercises/translation_alignment.py",
+      "sha256": "1d1f7856d6d267efe7ee8b495c2645b07ed5e13bc80066d953133a61d501729f",
+      "bytes": 4618,
+      "source_sha256": "1d1f7856d6d267efe7ee8b495c2645b07ed5e13bc80066d953133a61d501729f",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/launch/odometry_lab.launch.py",
+      "sha256": "4be5090b0c28b34075ef03531817a8a1949ab36dee5ca0eaac48cdae329eb38a",
+      "bytes": 4589,
+      "source_sha256": "4be5090b0c28b34075ef03531817a8a1949ab36dee5ca0eaac48cdae329eb38a",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/leap_localization_lab/__init__.py",
+      "sha256": "b4ecb92ff4c4ec673f110f00cf46b5c44e67364e44ccc478a1f70f32bb292c2f",
+      "bytes": 51,
+      "source_sha256": "b4ecb92ff4c4ec673f110f00cf46b5c44e67364e44ccc478a1f70f32bb292c2f",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/leap_localization_lab/assets.py",
+      "sha256": "0ecc3036c61ea9f112204078d5b115c2323b7de2bdc6e2d4a5018d968c581449",
+      "bytes": 2850,
+      "source_sha256": "0ecc3036c61ea9f112204078d5b115c2323b7de2bdc6e2d4a5018d968c581449",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/leap_localization_lab/world_pose.py",
+      "sha256": "f7f7ba56f118fb207d52d4f265c45115e1169b4a40cc48c14a92ac3e428c62c2",
+      "bytes": 2251,
+      "source_sha256": "f7f7ba56f118fb207d52d4f265c45115e1169b4a40cc48c14a92ac3e428c62c2",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/package.xml",
+      "sha256": "86c072470421420604380af138048e3aee64689f03165fbab07049f3cd17ee34",
+      "bytes": 1139,
+      "source_sha256": "905279a23f1a34ad7305a4ec43104745f91de949f1c969fda78eb6ad8df98c65",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/README.md",
+      "sha256": "9b9e21f04a9e4f58c22e9f8924c6d3ac7154a2650df8b251563d228312710afe",
+      "bytes": 30044,
+      "source_sha256": "9b9e21f04a9e4f58c22e9f8924c6d3ac7154a2650df8b251563d228312710afe",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/resource/leap_localization_lab",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/setup.cfg",
+      "sha256": "c34b5f0c6cec6edcda11ed4cb471e58d5e10408b8ec2f74bff2e294c58341ef9",
+      "bytes": 111,
+      "source_sha256": "c34b5f0c6cec6edcda11ed4cb471e58d5e10408b8ec2f74bff2e294c58341ef9",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/setup.py",
+      "sha256": "da7b0c075a60a401f81b0eda0afd2cdffa622ac7a89bb20dcc54030ee4b8ba5e",
+      "bytes": 785,
+      "source_sha256": "2a8fea1e063eb1d98435135bc6ee7217b41b43952e3dab3656f9c11598234e1f",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/test/test_assets.py",
+      "sha256": "eeabf42573fb8f9e455dbc01f5bf7932bcb45ff46d2dd867ae5b2ad1d455ac63",
+      "bytes": 4488,
+      "source_sha256": "eeabf42573fb8f9e455dbc01f5bf7932bcb45ff46d2dd867ae5b2ad1d455ac63",
+      "formatting_normalized": false
+    },
+    {
+      "path": "leap_localization_lab/test/test_bag_check.py",
+      "sha256": "a2e6c20d1caa0a45316743f448cb5590e7fa6327dd879cd28d4b8308d425e748",
+      "bytes": 7015,
+      "source_sha256": "a2e6c20d1caa0a45316743f448cb5590e7fa6327dd879cd28d4b8308d425e748",
+      "formatting_normalized": false
+    }
+  ],
+  "import_formatting": "LF text line endings and removal of trailing Python whitespace; Python AST unchanged.",
+  "privacy_cleanup": {
+    "date": "2026-11-04",
+    "change": "Owner email replaced with GitHub noreply address; source baseline points to rewritten history.",
+    "hashes": "sha256 and bytes describe current imported files; source_sha256 retains the pre-cleanup source snapshot hash."
+  }
+}

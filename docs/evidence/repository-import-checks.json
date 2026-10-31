@@ -1,0 +1,86 @@
+{
+  "checked_at_utc": "2026-10-31T16:09:40.201464+00:00",
+  "scope": "Independent repository import; offline Windows checks only",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "source_package_files_verified": 100,
+  "python_ast_unchanged": true,
+  "python_files_parsed": 60,
+  "xml_files_parsed": 9,
+  "yaml_rviz_files_parsed": 13,
+  "relative_markdown_links_exist": true,
+  "known_token_private_key_patterns_found": false,
+  "checks": [
+    {
+      "check": "patrol",
+      "exit_code": 0,
+      "unit_tests": 16,
+      "skipped": 0
+    },
+    {
+      "check": "navigation_task_config",
+      "exit_code": 0,
+      "unit_tests": 9,
+      "skipped": 0
+    },
+    {
+      "check": "navigation_task_results",
+      "exit_code": 0,
+      "unit_tests": 15,
+      "skipped": 0
+    },
+    {
+      "check": "navigation_route_checks",
+      "exit_code": 0,
+      "unit_tests": 11,
+      "skipped": 0
+    },
+    {
+      "check": "localization_and_bag",
+      "exit_code": 0,
+      "unit_tests": 18,
+      "skipped": 1
+    },
+    {
+      "check": "scheduling_examples",
+      "exit_code": 0,
+      "unit_tests": null,
+      "skipped": 0
+    },
+    {
+      "check": "bag_timestamps",
+      "exit_code": 0,
+      "unit_tests": null,
+      "skipped": 0
+    },
+    {
+      "check": "bag_required_topics",
+      "exit_code": 0,
+      "unit_tests": null,
+      "skipped": 0
+    },
+    {
+      "check": "bag_patrol_states",
+      "exit_code": 0,
+      "unit_tests": null,
+      "skipped": 0
+    },
+    {
+      "check": "pure_pursuit",
+      "exit_code": 0,
+      "unit_tests": null,
+      "skipped": 0
+    },
+    {
+      "check": "dijkstra_grid",
+      "exit_code": 0,
+      "unit_tests": null,
+      "skipped": 0
+    }
+  ],
+  "limitations": [
+    "Ubuntu VM was off; no new colcon build or Gazebo run was performed.",
+    "Historical ROS/Gazebo and MCAP evidence is retained with its original dates.",
+    "An attempted test_manual.py run had 8 missing-ROS-module errors (action_msgs/builtin_interfaces); it is not counted as passed.",
+    "ROS-dependent and Linux process-group tests were not included in this Windows subset."
+  ]
+}

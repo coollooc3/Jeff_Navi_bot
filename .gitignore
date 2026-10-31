@@ -1,0 +1,34 @@
+# ROS 2 workspace products
+build/
+install/
+log/
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.vscode/
+.idea/
+.codeartsdoer/
+.merkle-snapshot.json
+
+# Local recordings and generated runs; curated evidence lives in docs/evidence.
+*.mcap
+*.db3
+*.db3-*
+*.bag
+recordings/
+output/
+*.log
+
+# Local credentials and OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+# Offline conversion of one existing simulation bag. This does not record live topics.
+# uri is a NEW output directory. Keep it distinct from the input bag directory.
+output_bags:
+  - uri: /home/chuyun/leap_nav_data/localization/20261029T070856Z-72403e/bag_mcap
+    storage_id: mcap
+    all: true

@@ -1,0 +1,14 @@
+This repository contains separately licensed components. No single blanket
+license is applied to every component by this import.
+
+* leap_nav_demo declares Apache-2.0 in its package.xml.
+* leap_mapping is MIT licensed; see leap_mapping/LICENSE.
+* leap_patrol is MIT licensed; see leap_patrol/LICENSE.
+* leap_localization_lab declares MIT in package.xml and setup.py.
+
+The source workspace's original GPL-2.0 license is retained as provenance at
+LICENSES/source-workspace-GPL-2.0.txt. Importing this snapshot does not replace
+the license declarations of individual packages or third-party components.
+
+Upstream Nav2, TurtleBot3, Gazebo and SLAM Toolbox components are installed
+separately and retain their respective licenses. See NOTICE.md for sources.
